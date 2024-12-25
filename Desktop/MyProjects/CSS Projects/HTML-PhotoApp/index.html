@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <title>Mountain-PhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>Mountains</h1>
+      <section>
+        <h2>Gallery</h2>
+        <p>See more <a target="_blank" 
+            href="https://images.pexels.com/photos/5326953/pexels-photo-5326953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            mountain photos</a> in our gallery.</p>
+            <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Beautiful lake and mountain.">
+      </section>
+      <section>
+        <h2>Beautiful nature</h2>
+        <h3>What to do in mountain?</h3>
+        <ul>
+          <li>Canyoning</li>
+          <li>Caving</li>
+          <li>Parachuting</li>
+        </ul>
+        <figure>
+          <img src="https://images.pexels.com/photos/1574843/pexels-photo-1574843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Animals on grass near mountain.">
+          <figcaption>We all <em>love</em> mountains.</figcaption>  
+        </figure>
+        <h3>What to wear in snow mountains?</h3>
+        <ol>
+          <li>Snow boots</li>
+          <li>ski gloves</li>
+          <li>warm socks</li>
+        </ol>
+        <figure>
+          <img src="https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Alpine background">
+          <figcaption>Alps <strong>are</strong> very beautiful.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Alps Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Did you ever visited alps?</legend>
+            <label><input id="Yes" type="radio" name="yes-no" value="yes" checked> Yes</label>
+            <label><input id="No" type="radio" name="yes-no" value="no"> No</label>
+          </fieldset>
+          <fieldset>
+            <legend>You are on the mountain. How do you feel there?</legend>
+            <input id="alive" type="checkbox" name="personality" value="alive" checked> <label for="alive">Alive</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="mountainphotourl" placeholder="mountain" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright 
+      </p>
+    </footer>
+  </body>
+</html>
